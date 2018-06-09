@@ -1,0 +1,36 @@
+{
+    "name": "structured-log-ai-sink",
+    "version": "0.0.1",
+    "description": "A structured-log plugin that writes log events to Application Insights.",
+    "main": "dist/structured-log-ai-sink.js",
+    "jsnext:main": "dist/structured-log-ai-sink.es6.js",
+    "scripts": {
+        "build": "rollup -c rollup.config.js",
+        "prepublish": "npm run build",
+        "test": "mocha"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Wedvich/structured-log-ai-sink.git"
+    },
+    "author": "Daniel Macovei",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Wedvich/structured-log-ai-sink/issues"
+    },
+    "homepage": "https://github.com/Wedvich/structured-log-ai-sink#readme",
+    "devDependencies": {
+        "babel-plugin-transform-class-properties": "^6.11.5",
+        "babel-plugin-transform-object-rest-spread": "^6.20.2",
+        "babel-preset-es2015": "^6.13.2",
+        "chai": "^3.5.0",
+        "fetch-mock": "^5.1.0",
+        "mocha": "^3.0.2",
+        "rollup": "^0.40.1",
+        "rollup-plugin-babel": "^2.6.1",
+        "sinon": "^1.17.7"
+    },
+    "peerDependencies": {
+        "structured-log": "^0.1.0 || ^0.0.18"
+    }
+}
