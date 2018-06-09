@@ -2,7 +2,7 @@
 
 A [structured-log](https://github.com/structured-log/structured-log) plugin that writes log events to [Application Insights](https://azure.microsoft.com/en-us/services/application-insights/).
 
-Inspired by [structured-log-seq-sink] (https://github.com/Wedvich/structured-log-seq-sink). Credits to [Martin Wedvich] (https://github.com/Wedvich).
+Inspired by [structured-log-seq-sink](https://github.com/Wedvich/structured-log-seq-sink). Credits to [Martin Wedvich](https://github.com/Wedvich).
 
 **Requires polyfills for `Promise` and `fetch` if those aren't supported in your target platform/browser.**
 
